@@ -1,0 +1,351 @@
+*{margin: 0; padding: 0;}
+body {
+    font-family: 'Lato', sans-serif!important;
+    --pri: #1abc9c;
+    --sec: #2c3e50;
+    --gr: #a1b1bc;
+}
+.topbar {
+    height: 60px;
+    background-color: #222533;
+    color: var(--gr);
+}
+.mangxahoi i {
+    font-size: 18px;
+    margin-right: 21px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mangxahoi i:hover {
+    color: white;
+}
+.menutren {
+    display: flex;
+    justify-content: space-between;
+}
+a.menutren1 {
+    color: var(--gr);
+    text-decoration: none;
+}
+a.menutren1:hover {
+    color: var(--pri);
+	text-decoration: none;
+}
+.navigation {
+    height: 90px;
+    background-color: #1a1c27;
+	border-bottom: 1px solid #15161d;
+}
+.logo {
+    margin-top: 16px;
+    color: white;
+    font-size: 36px;
+}
+span.chudam {
+    font-weight: 900;
+}
+span.chumanh{
+	font-weight: 300;
+	color: var(--gr);
+}
+.menuduoi{
+	display: flex;
+	justify-content: space-between;
+}
+.menuduoi1{
+	font-size: 14px;
+	font-weight: 900;
+	color: white;
+	line-height: 90px;
+	transition: 0.5s;
+	border-top: 5px solid #1a1c27;
+}
+.menuduoi1:hover{
+	text-decoration: none;
+	color: var(--pri);
+	border-top: 5px solid var(--pri);
+}
+.khoi1 {
+    height: 670px;
+    color: white;
+    background-color: #1b1e28;
+}
+h3.tieudenho {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 134px;
+}
+h1.tieudeto {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+h2.tieudenho2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--pri);
+	margin-bottom: 34px;
+}
+li {
+    list-style: none;
+	margin-bottom: 30px;
+}
+li i {
+    margin-right: 14px;
+}
+img.anhmt {
+    margin-top: 41px;
+}
+button.nut1 {
+    background-color: #1b1e28;
+    color: white;
+    padding: 24px 36px;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+.khoi2 {
+    height: 440px;
+    text-align: center;
+	border-bottom: 1px solid #ebebeb
+}
+h2.tieude2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: var(--sec);
+    margin-top: 156px;
+    margin-bottom: 30px;
+}
+p.mota2 {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gr);
+}
+p.mota2 {
+    margin-bottom: 60px;
+}
+input.input2 {
+    width: 100%;
+    height: 64px;
+    border-radius: 3px;
+    border: 1px solid #e6e7e8;
+    padding: 24px;
+    box-shadow: inset -3px 3px 10px -7px #000;
+}
+button.nut2 {
+    width: 100%;
+    line-height: 64px;
+    border: none;
+    background-color: var(--sec);
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 3px;
+}
+.khoi3{
+	height: 732px;
+	margin-bottom: 100px;
+}
+.khoi3 img{
+	margin-top: 160px;
+}
+h3.tieude3 {
+    margin-top: 156px;
+    font-weight: 900;
+    margin-bottom: 30px;
+	font-size: 30px;
+	color: var(--sec);
+}
+span.xanh {
+    color: var(--pri);
+}
+p.mota3 {
+    font-size: 14px;
+    color: var(--gr);
+    line-height: 24px;
+	margin-bottom: 28px;
+}
+.khoi3 ul {
+    color: var(--gr);
+	margin-bottom: 40px;
+}
+.nut4{
+	width: 180px;
+	line-height: 54px;
+	border: none;
+	color: white;
+	font-weight: 900;
+	margin-right: 20px;
+	border-radius: 3px;
+}
+.nut4-1{
+	background-color: var(--pri);
+}
+.nut4-2{
+	background-color: var(--sec);
+}
+.motcham {
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+}
+.active {
+    box-shadow: 0 0 0 3px white;
+    background: none;
+}
+.nhieucham {
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+p.diachi {
+    font-size: 14px;
+    margin-bottom: 96px;
+}
+
+p.ten {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+p.cmt {
+    font-size: 26px;
+    line-height: 48px;
+    font-style: italic;
+    margin-bottom: 54px;
+}
+.anh4 {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 132px;
+    margin-bottom: 50px;
+}
+.anh4 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.khoi4 {
+    height: 670px;
+    background: #556371;
+    text-align: center;
+    color: white;
+}
+.ft-bar {
+    background-color: #1a1c27;
+    height: 410px;
+}
+footer .logo {
+    margin-top: 108px;
+    margin-bottom: 40px;
+}
+p.mota-ft {
+    font-size: 14px;
+    color: var(--gr);
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+p.view {
+    font-size: 15px;
+    color: var(--pri);
+    font-weight: 900;
+}
+.view i {
+    width: 24px;
+    line-height: 24px;
+    background-color: var(--pri);
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    color: #1a1c27;
+}
+h4.tieude-ft {
+    font-size: 18px;
+    color: white;
+    margin-top: 128px;
+    margin-bottom: 54px;
+    font-weight: 900;
+}
+img.anh-ft {
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+}
+p.tentheme {
+    color: white;
+    font-weight: 700;
+    margin-bottom: -2px;
+}
+p.gia {
+    color: var(--pri);
+    font-size: 30px;
+    margin-bottom: -8px;
+}
+footer .icon i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+input.email {
+    width: 100%;
+    height: 50px;
+    background-color: #2d323f;
+    border: 1px solid #434966;
+    border-radius: 3px;
+    padding: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+button.nutsubmit {
+    width: 100%;
+    height: 50px;
+    background-color: var(--pri);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 900;
+}
+.ft-end {
+    height: 100px;
+    background-color: #222533;
+    color: var(--gr);
+    font-size: 14px;
+}
+.ft-end span {
+    color: var(--pri);
+    font-weight: 700;
+}
+.iconend {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.ft-end .row {
+    padding-top: 12px;
+}
+.ft-end i.fab.fa-facebook-f {
+    padding: 5px 10px;
+}
+.ft-end i.fab.fa-twitter {
+    padding: 5px 5px;
+}
+.ft-end i.fab.fa-google-plus-g {
+    padding: 5px 3px;
+}
+.ft-end i.fab.fa-tumblr {
+    padding: 5px 9px;
+}
+.ft-end i {
+    border: 1px solid #a1b1bc;
+}
+.ft-end i:hover {
+    color: white;
+}
+
